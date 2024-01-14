@@ -1,13 +1,14 @@
 import React from "react";
 import { BsDot } from "react-icons/bs";
 import { IoPlay } from "react-icons/io5";
+import HeroVideo from "./HeroVideo";
 
 export default function Hero() {
   return (
     <div className="w-full">
       <div className="container mx-auto p-4">
         <div className="flex justify-between items-center">
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-8 w-full lg:w-8/12">
             <div className="flex flex-col gap-3 font-medium">
               <div className="flex gap-3">
                 <div className="flex justify-center items-center border border-[#FFD962] bg-[#FFD962]/5 p-2 rounded-lg">
@@ -50,7 +51,7 @@ export default function Hero() {
                 1 Year Software Development Fellowship
               </p>
             </div>
-            <p className="text-xl font-medium">
+            <p className="text-xl font-medium ">
               COde your journey from beginner to{" "}
               <span className="border-b border-black uppercase">top 1%</span>{" "}
               sortware developer.
@@ -67,7 +68,9 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          <p>add second hero section</p>
+          <div className="w-full lg:w-6/12">
+            <HeroVideo />
+          </div>
         </div>
       </div>
     </div>
