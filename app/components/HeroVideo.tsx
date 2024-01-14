@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function HeroVideo() {
-  const videoLink = 'https://www.youtube.com/watch?v=JYD4UZiGKgY';
+  const videoLink = 'https://www.youtube.com/watch?v=66XwG1CLHuU&pp=ygUUaW50cm9kdWN0aW9uIHByb2R1Y3Q%3D';
   const videoId = new URL(videoLink).searchParams.get('v');
 
   return (

@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <div className="w-full">
       <div className="container mx-auto p-4">
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center flex-wrap lg:flex-nowrap gap-8 lg:gap-0">
           <div className="flex flex-col gap-8 w-full lg:w-8/12">
             <div className="flex flex-col gap-3 font-medium">
               <div className="flex gap-3">
@@ -56,7 +56,7 @@ export default function Hero() {
               <span className="border-b border-black uppercase">top 1%</span>{" "}
               sortware developer.
             </p>
-            <div className="flex gap-4">
+            <div className="flex gap-4 flex-wrap md:flex-nowrap">
               <div className="w-full lg:w-3/12 flex justify-center p-3 bg-[#764DEF] text-white rounded-lg">
                 <p>Start 3 Month Free Trial</p>
               </div>
