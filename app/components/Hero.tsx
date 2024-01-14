@@ -11,29 +11,137 @@ export default function Hero() {
           <div className="flex flex-col gap-8 w-full lg:w-8/12">
             <div className="flex flex-col gap-3 font-medium">
               <div className="flex gap-3">
-                <div className="flex justify-center items-center border border-[#FFD962] bg-[#FFD962]/5 p-2 rounded-lg">
+                <div className="flex gap-2 h-[32px] justify-center items-center border border-[#FFD962] bg-[#FFD962]/5 p-2 rounded-lg">
                   <span>
-                    <BsDot className="text-[#FFD03F] w-9 h-9" />
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="8"
+                      height="8"
+                      viewBox="0 0 8 8"
+                      fill="none"
+                    >
+                      <circle
+                        cx="4"
+                        cy="4"
+                        r="4"
+                        fill="url(#paint0_linear_392_117)"
+                      />
+                      <circle cx="4" cy="4" r="4" fill="#FFD03F" />
+                      <defs>
+                        <linearGradient
+                          id="paint0_linear_392_117"
+                          x1="1"
+                          y1="-7.25021e-07"
+                          x2="9.68587"
+                          y2="2.83521"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop stop-color="#FFC34C" />
+                          <stop offset="1" stop-color="#FF4CA2" />
+                        </linearGradient>
+                      </defs>
+                    </svg>
                   </span>
                   <p>Job Guarantee</p>
                 </div>
-                <div className="flex justify-center items-center border border-[#FFD962] bg-[#FFD962]/5 p-2 rounded-lg">
+                <div className="flex gap-2 h-[32px] justify-center items-center border border-[#FFD962] bg-[#FFD962]/5 p-2 rounded-lg">
                   <span>
-                    <BsDot className="text-[#FFD03F] w-9 h-9" />
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="8"
+                      height="8"
+                      viewBox="0 0 8 8"
+                      fill="none"
+                    >
+                      <circle
+                        cx="4"
+                        cy="4"
+                        r="4"
+                        fill="url(#paint0_linear_392_117)"
+                      />
+                      <circle cx="4" cy="4" r="4" fill="#FFD03F" />
+                      <defs>
+                        <linearGradient
+                          id="paint0_linear_392_117"
+                          x1="1"
+                          y1="-7.25021e-07"
+                          x2="9.68587"
+                          y2="2.83521"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop stop-color="#FFC34C" />
+                          <stop offset="1" stop-color="#FF4CA2" />
+                        </linearGradient>
+                      </defs>
+                    </svg>
                   </span>
                   <p>Money Back guarantee</p>
                 </div>
               </div>
               <div className="flex gap-3">
-                <div className="flex justify-center items-center border border-[#FFD962] bg-[#FFD962]/5 p-2 rounded-lg">
+                <div className="flex gap-2 h-[32px] justify-center items-center border border-[#FFD962] bg-[#FFD962]/5 p-2 rounded-lg">
                   <span>
-                    <BsDot className="text-[#FFD03F] w-9 h-9" />
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="8"
+                      height="8"
+                      viewBox="0 0 8 8"
+                      fill="none"
+                    >
+                      <circle
+                        cx="4"
+                        cy="4"
+                        r="4"
+                        fill="url(#paint0_linear_392_117)"
+                      />
+                      <circle cx="4" cy="4" r="4" fill="#FFD03F" />
+                      <defs>
+                        <linearGradient
+                          id="paint0_linear_392_117"
+                          x1="1"
+                          y1="-7.25021e-07"
+                          x2="9.68587"
+                          y2="2.83521"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop stop-color="#FFC34C" />
+                          <stop offset="1" stop-color="#FF4CA2" />
+                        </linearGradient>
+                      </defs>
+                    </svg>
                   </span>
                   <p>Corporate Sponsored</p>
                 </div>
-                <div className="flex justify-center items-center border border-[#FFD962] bg-[#FFD962]/5 p-2 rounded-lg">
+                <div className="flex gap-2 h-[32px] justify-center items-center border border-[#FFD962] bg-[#FFD962]/5 p-2 rounded-lg">
                   <span>
-                    <BsDot className="text-[#FFD03F] w-9 h-9" />
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="8"
+                      height="8"
+                      viewBox="0 0 8 8"
+                      fill="none"
+                    >
+                      <circle
+                        cx="4"
+                        cy="4"
+                        r="4"
+                        fill="url(#paint0_linear_392_117)"
+                      />
+                      <circle cx="4" cy="4" r="4" fill="#FFD03F" />
+                      <defs>
+                        <linearGradient
+                          id="paint0_linear_392_117"
+                          x1="1"
+                          y1="-7.25021e-07"
+                          x2="9.68587"
+                          y2="2.83521"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop stop-color="#FFC34C" />
+                          <stop offset="1" stop-color="#FF4CA2" />
+                        </linearGradient>
+                      </defs>
+                    </svg>
                   </span>
                   <p>Min. 80% Scholarship</p>
                 </div>
@@ -57,10 +165,10 @@ export default function Hero() {
               sortware developer.
             </p>
             <div className="flex gap-4 flex-wrap md:flex-nowrap">
-              <div className="w-full lg:w-3/12 flex justify-center p-3 bg-[#764DEF] text-white rounded-lg">
+              <div className="w-full lg:w-3/12 h-[48px] flex justify-center p-3 bg-[#764DEF] text-white rounded-lg">
                 <p>Start 3 Month Free Trial</p>
               </div>
-              <div className="flex gap-2 justify-center text-[#764DEF] border border-[#B1AAC6] p-3 rounded-lg">
+              <div className="flex gap-2 h-[48px]  justify-center text-[#764DEF] border border-[#B1AAC6] p-3 rounded-lg">
                 <span>
                   <IoPlay className="w-6 h-6" />
                 </span>

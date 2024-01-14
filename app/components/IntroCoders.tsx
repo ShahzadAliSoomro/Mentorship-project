@@ -4,7 +4,7 @@ import Card from "./Card";
 export default function IntroCoders() {
   return (
     <div className="w-full">
-      <div className="container mx-auto pt-10">
+      <div className="container mx-auto p-4 pt-10">
         <div className="flex flex-col gap-10">
           <div className="flex text-6xl font-semibold justify-center items-center">
             <p>
