@@ -39,7 +39,7 @@ export default function Categories() {
         <div className="flex pt-10 justify-center">
           <div className="w-full grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:w-10/12">
             {boxes.map((box) => (
-              <div className="border border-[#D9D9D9] rounded-2xl w-[269px] h-[200px] overflow-auto relative flex flex-col justify-center">
+              <div key={box.id} className="border border-[#D9D9D9] rounded-2xl w-[269px] h-[200px] overflow-auto relative flex flex-col justify-center">
                 <div className="p-4 flex justify-center items-center">
                   <div className="flex flex-col gap-3 items-center">
                     <div className="flex justify-center items-center w-[48px] h-[48px] border rounded-lg p-2 border-[#764DEF]">
