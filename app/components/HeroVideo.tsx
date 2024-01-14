@@ -2,6 +2,7 @@ import React from 'react';
 
 export default function HeroVideo() {
   const videoLink = 'https://www.youtube.com/watch?v=JYD4UZiGKgY';
+  const videoId = new URL(videoLink).searchParams.get('v');
 
   return (
     <div className="w-full">
@@ -10,11 +11,12 @@ export default function HeroVideo() {
         <div className="w-full rounded-lg">
           <iframe
             width="100%"
-            height="350"
-            src={`https://www.youtube.com/embed/${videoLink.split('/').pop()}`}
+            height="500"
+            src={`https://www.youtube.com/embed/${videoId}`}
             title="YouTube Video"
             frameBorder="0"
             allowFullScreen
+            className='rounded-2xl'
           ></iframe>
         </div>
       </div>
