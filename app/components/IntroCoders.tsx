@@ -1,4 +1,5 @@
 import React from "react";
+import Card from "./Card";
 
 export default function IntroCoders() {
   return (
@@ -18,6 +19,7 @@ export default function IntroCoders() {
           </div>
         </div>
       </div>
+      <Card />
     </div>
   );
 }
