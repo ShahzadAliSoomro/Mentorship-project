@@ -2,6 +2,7 @@ import Hero from './components/Hero'
 import Categories from './components/Categories'
 import IntroCoders from './components/IntroCoders'
 import SingleCard from './components/SingleCard'
+import AdmissionProcess from './components/AdmissionProcess'
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Categories />
       <IntroCoders />
       <SingleCard />
+      <AdmissionProcess />
     </main>
   )
 }

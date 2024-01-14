@@ -430,8 +430,8 @@ export default function Card() {
   return (
     <div className="w-full">
       <div className="container mx-auto p-5 pt-10 lg:pt-20">
-        <div className="flex flex-col gap-7">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-2 gap-8 w-full lg:w-10/12 mx-auto">
+        <div className="flex flex-col gap-12">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-2 gap-12 w-full lg:w-10/12 mx-auto">
             {/* Render the first four items on the left */}
             {card.map((item) => (
               <div
