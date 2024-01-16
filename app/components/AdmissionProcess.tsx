@@ -1,4 +1,5 @@
 import React from "react";
+import Flowchart from "./Flowchart";
 
 export default function AdmissionProcess() {
   return (
@@ -15,9 +16,12 @@ export default function AdmissionProcess() {
               A comprehensive end-to-end fellowship program designed to guide
               you towards becoming a top-tier tech professional .
             </p>
+            
           </div>
+          <p className="text-center font-bold text-2xl">Panding the UI</p>
         </div>
       </div>
+      {/* <Flowchart /> */}
     </div>
   );
 }

@@ -3,6 +3,7 @@ import Categories from './components/Categories'
 import IntroCoders from './components/IntroCoders'
 import SingleCard from './components/SingleCard'
 import AdmissionProcess from './components/AdmissionProcess'
+import LogosSlider from './components/LogosSlider'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <IntroCoders />
       <SingleCard />
       <AdmissionProcess />
+      <LogosSlider />
     </main>
   )
 }

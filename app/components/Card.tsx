@@ -436,7 +436,7 @@ export default function Card() {
             {card.map((item) => (
               <div
                 key={item.id}
-                className="border border-[#D9D9D9] bg-[#FDFDFF] rounded-2xl p-6 lg:p-10 w-[585px] h-[216px] relative"
+                className="border border-[#D9D9D9] bg-[#FDFDFF] rounded-2xl p-6 lg:p-10 w-full lg:w-[585px] h-[216px] relative"
               >
                 <div className="absolute top-0 right-0">{item.icon}</div>
                 <div className="flex flex-col gap-3">

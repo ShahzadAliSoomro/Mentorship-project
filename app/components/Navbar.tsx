@@ -75,7 +75,7 @@ export default function Navbar() {
       {/* /// mobile screen navbar /// */}
       {isOpen && (
         <div className="md:hidden absolute top-16 right-0 w-full">
-          <div className="flex flex-col gap-8 p-4">
+          <div className="flex flex-col gap-8 p-4 bg-white">
             <Link href="/" className="text-black text-xl font-semibold">
               Curriculum
             </Link>

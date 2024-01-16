@@ -2,3 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* Override the background styles for Splide Next and Prev buttons */
+.splide__arrow--next,
+.splide__arrow--prev {
+    background: none !important; /* Set background to none or transparent */
+    color: #fff; /* Set the color of the arrow icon */
+}
+
+/* Optionally, you can add styles for hover and active states */
+.splide__arrow:hover,
+.splide__arrow:active {
+    background: none !important; /* Set background to none or transparent */
+    color: #fff; /* Set the color when hovering or active */
+}

@@ -68,11 +68,11 @@ export default function HeroVideo() {
           className="rounded-2xl"
         ></iframe>
       </div>
-      <div className="absolute top-[102%] left-[87%] transform -translate-x-1/2 -translate-y-1/2">
+      {/* <div className="hidden lg:block absolute top-[102%] left-[87%] transform -translate-x-1/2 -translate-y-1/2">
       <svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 65 65" fill="none">
   <circle cx="32.5" cy="32.5" r="31" stroke="#FFD03F" stroke-width="3"/>
 </svg>
-        </div>
+        </div> */}
     </div>
   );
 }

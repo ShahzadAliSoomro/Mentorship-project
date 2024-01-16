@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <div className="w-full">
       <div className="container mx-auto p-4 relative">
-        <div className="absolute top-[30%] left-[30%] transform -translate-x-1/2 -translate-y-1/2">
+        {/* <div className="hidden lg:block absolute top-[30%] left-[30%] transform -translate-x-1/2 -translate-y-1/2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="33"
@@ -22,8 +22,8 @@ export default function Hero() {
               fill="#493F67"
             />
           </svg>
-        </div>
-        <div className="absolute top-[93%] left-[55%] transform -translate-x-1/2 -translate-y-1/2">
+        </div> */}
+        {/* <div className="hidden lg:block absolute top-[93%] left-[55%] transform -translate-x-1/2 -translate-y-1/2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="26"
@@ -39,11 +39,11 @@ export default function Hero() {
               stroke-width="3"
             />
           </svg>
-        </div>
+        </div> */}
         <div className="flex justify-between items-center flex-wrap lg:flex-nowrap gap-8 lg:gap-0">
           <div className="flex flex-col gap-8 w-full lg:w-8/12">
             <div className="flex flex-col gap-3 font-medium">
-              <div className="flex gap-3">
+              <div className="flex gap-3 flex-wrap lg:flex-nowrap">
                 <div className="flex gap-2 h-[32px] justify-center items-center border border-[#FFD962] bg-[#FFD962]/5 p-2 rounded-lg">
                   <span>
                     <svg
@@ -111,7 +111,7 @@ export default function Hero() {
                   <p>Money Back guarantee</p>
                 </div>
               </div>
-              <div className="flex gap-3">
+              <div className="flex gap-3 flex-wrap lg:flex-nowrap">
                 <div className="flex gap-2 h-[32px] justify-center items-center border border-[#FFD962] bg-[#FFD962]/5 p-2 rounded-lg">
                   <span>
                     <svg
