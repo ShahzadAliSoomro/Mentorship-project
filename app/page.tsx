@@ -4,6 +4,7 @@ import IntroCoders from './components/IntroCoders'
 import SingleCard from './components/SingleCard'
 import AdmissionProcess from './components/AdmissionProcess'
 import LogosSlider from './components/LogosSlider'
+import OurPeculiarCurriculum from './components/OurPeculiarCurriculum'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <SingleCard />
       <AdmissionProcess />
       <LogosSlider />
+      <OurPeculiarCurriculum />
     </main>
   )
 }
