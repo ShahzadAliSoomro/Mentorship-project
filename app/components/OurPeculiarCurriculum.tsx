@@ -123,7 +123,7 @@ const CardContent = [
     bor12: `Google Bard ChatGPT`,
   },
   {
-    id: 3,
+    id: 4,
     // btnicon: BtnIcon,
     // btntext: "Externship",
     title: "Sprint 27-30 ::Career Services + Interview Preparations",
@@ -163,18 +163,20 @@ const CardContent = [
 ];
 
 export default function OurPeculiarCurriculum() {
-    const [isContentVisible, setContentVisible] = useState(Array(CardContent.length).fill(false));
+  const [isContentVisible, setContentVisible] = useState(
+    Array(CardContent.length).fill(false)
+  );
 
-    const toggleContent = (index: number) => {
-      const newVisibility = [...isContentVisible];
-      newVisibility[index] = !newVisibility[index];
-      setContentVisible(newVisibility);
-    };
+  const toggleContent = (index: number) => {
+    const newVisibility = [...isContentVisible];
+    newVisibility[index] = !newVisibility[index];
+    setContentVisible(newVisibility);
+  };
   return (
     <div className="w-full">
       <div className="container mx-auto p-5 pt-10">
         <div className="flex flex-col gap-10">
-          <div className="flex text-6xl font-semibold justify-center items-center">
+          <div className="flex lg:text-6xl text-5xl text-center font-semibold justify-center items-center">
             <p>
               Our peculiar <span className="text-[#764DEF]">curriculum</span>
             </p>
@@ -191,12 +193,16 @@ export default function OurPeculiarCurriculum() {
             <div key={card.id} className="flex justify-center">
               <div className="w-full lg:w-[1400px] bg-[#141317] rounded-2xl">
                 <div className="flex flex-col gap-3 p-6">
-                  <div className=" bg-white flex gap-2 w-[135px] h-[28px] justify-center items-center border border-[#FFD962] bg-[#FFD962]/5 text-sm rounded-lg">
+                  {/* Conditionally render btnicon and btntext */}
+                  {(card.id !== 2 && card.id !== 4) && (
+                    <div className=" bg-white flex gap-2 w-[135px] h-[28px] justify-center items-center border border-[#FFD962] bg-[#FFD962]/5 text-sm rounded-lg">
                     <div>
                       <Image src={card.btnicon} alt="icon" />
                     </div>
                     <p className="text-sm">{card.btntext}</p>
                   </div>
+                  )}
+                 
                   <div className="flex justify-between">
                     <div className="flex flex-col gap-2 text-white">
                       <p className="text-xl font-semibold">{card.title}</p>
@@ -217,13 +223,19 @@ export default function OurPeculiarCurriculum() {
                     </div>
                     <div className="flex w-[36px] h-[36px] justify-center items-center p-1 border border-[#B9D3BD]/30 rounded-lg">
                       <button
-                        onClick={() => toggleContent(index)} className={!isContentVisible[index] ? "visible" : "hidden"}
+                        onClick={() => toggleContent(index)}
+                        className={
+                          !isContentVisible[index] ? "visible" : "hidden"
+                        }
                       >
                         <Image src={card.arrowbtn} alt="icon" />
                       </button>
 
                       <button
-                        onClick={() => toggleContent(index)} className={isContentVisible[index] ? "visible" : "hidden"}
+                        onClick={() => toggleContent(index)}
+                        className={
+                          isContentVisible[index] ? "visible" : "hidden"
+                        }
                       >
                         <Image src={card.arrowbtn2} alt="icon" />
                       </button>

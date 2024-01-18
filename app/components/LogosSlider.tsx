@@ -64,7 +64,7 @@ const LogosSlider = () => {
             {logos.map((logo) => (
               <div
                 key={logo.id}
-                className="flex flex-col md:flex-row w-full border rounded-2xl"
+                className="flex flex-col md:flex-row w-full border rounded-2xl overflow-hidden"
               >
                 <div className="w-full md:w-[387px] h-[156px] bg-[#FFD03F] text-[#141317] md:rounded-l-2xl">
                   <div className="flex flex-col gap-3 p-8 mt-2">

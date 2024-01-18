@@ -6,7 +6,7 @@ export default function IntroCoders() {
     <div className="w-full">
       <div className="container mx-auto p-4 pt-10">
         <div className="flex flex-col gap-10">
-          <div className="flex text-6xl font-semibold justify-center items-center">
+          <div className="flex lg:text-6xl text-center text-5xl font-semibold justify-center items-center">
             <p>
               Introducing <span className="text-[#764DEF]">Coders Class</span>
             </p>

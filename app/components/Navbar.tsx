@@ -74,8 +74,8 @@ export default function Navbar() {
       </div>
       {/* /// mobile screen navbar /// */}
       {isOpen && (
-        <div className="md:hidden absolute top-16 right-0 w-full">
-          <div className="flex flex-col gap-8 p-4 bg-white">
+        <div className="md:hidden absolute top-16 right-0 w-full bg-[#FBF7FF] z-20">
+          <div className="flex flex-col gap-5 p-4 bg-white">
             <Link href="/" className="text-black text-xl font-semibold">
               Curriculum
             </Link>
@@ -88,7 +88,7 @@ export default function Navbar() {
             <Link href="/" className="text-black text-xl font-semibold">
               Contact
             </Link>
-            <div className="w-20 justify-center border border-[#B1AAC6] p-3 rounded-lg">
+            <div className="w-48 text-center justify-center border border-[#B1AAC6] p-3 rounded-lg">
               <Link href="/" className="text-[#764DEF]">
                 Sign In
               </Link>
