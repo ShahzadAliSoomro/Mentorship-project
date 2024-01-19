@@ -5,6 +5,8 @@ import SingleCard from './components/SingleCard'
 import AdmissionProcess from './components/AdmissionProcess'
 import LogosSlider from './components/LogosSlider'
 import OurPeculiarCurriculum from './components/OurPeculiarCurriculum'
+import VerefyCertificate from './components/VerefyCertificate'
+import ScholorShip from './components/ScholorShip'
 
 export default function Home() {
   return (
@@ -17,6 +19,8 @@ export default function Home() {
       <AdmissionProcess />
       <LogosSlider />
       <OurPeculiarCurriculum />
+      <VerefyCertificate />
+      <ScholorShip />
     </main>
   )
 }
