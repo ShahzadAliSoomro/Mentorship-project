@@ -7,11 +7,16 @@ import LogosSlider from './components/LogosSlider'
 import OurPeculiarCurriculum from './components/OurPeculiarCurriculum'
 import VerefyCertificate from './components/VerefyCertificate'
 import ScholorShip from './components/ScholorShip'
+import Faqs from './components/Faqs'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 export default function Home() {
   return (
-    
-    <main className="pt-16">
+    <div>
+      <Navbar />
+       <main className="pt-16">
+
       <Hero />
       <Categories />
       <IntroCoders />
@@ -21,6 +26,10 @@ export default function Home() {
       <OurPeculiarCurriculum />
       <VerefyCertificate />
       <ScholorShip />
+      <Faqs />
     </main>
+    <Footer />
+    </div>
+   
   )
 }

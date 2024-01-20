@@ -1,13 +1,13 @@
 import Image from "next/image";
 import React from "react";
-import logobanner from "../../public/certificateimg/logobanner.svg";
-import botbanner from "../../public/certificateimg/botbanner.svg";
-import group from "../../public/certificateimg/group71.svg";
-import logo from "../../public/certificateimg/logo.svg";
-import user from "../../public/certificateimg/user.svg";
-import arrow from "../../public/certificateimg/arrow.svg";
+import logobanner from "../../../public/certificateimg/logobanner.svg";
+import botbanner from "../../../public/certificateimg/botbanner.svg";
+import group from "../../../public/certificateimg/group71.svg";
+import logo from "../../../public/certificateimg/logo.svg";
+import user from "../../../public/certificateimg/user.svg";
+import arrow from "../../../public/certificateimg/arrow.svg";
 
-export default function VerefyCertificate() {
+export default function VerifyCertificate() {
   return (
     <div className="w-full bg-[#FAF7FF] ">
       <div className="container mx-auto lg:p-5 p-0 ">

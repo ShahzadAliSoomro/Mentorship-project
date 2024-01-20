@@ -8,9 +8,9 @@ export default function ScholorShip() {
   return (
     <div className="w-full">
       <div className="container mx-auto p-5">
-        <div className="flex justify-center flex-wrap lg:flex-nowrap pt-4">
-          <div className="w-full lg:w-[1360px] md:w-[90%] h-auto lg:h-[514px] border rounded-3xl bg-[#141317]">
-            <div className="flex relative flex-col lg:flex-row lg:gap-4">
+        <div className="flex justify-center flex-wrap xl:flex-nowrap pt-4">
+          <div className="w-full lg:w-[1360px] md:w-[90%] h-auto xl:h-[514px] border rounded-3xl bg-[#141317]">
+            <div className="flex relative flex-col xl:flex-row lg:gap-4">
               {/* /// card /// */}
               {/* <div className="w-full relative"> */}
               {/* <div className=""> */}
@@ -22,7 +22,7 @@ export default function ScholorShip() {
                 className="w-full lg:w-[376px] h-[403px] lg:ml-12 ml-0 "
               />
               {/* </div> */}
-              <div className="flex flex-col absolute lg:top-[10%] top-[5%] left-[7%]">
+              <div className="flex flex-col absolute xl:top-[10%] lg:top-[5%] top-[5%] xl:left-[7%] lg:left-[9%] md:left-[27%] sm:left-[7%] left-[7%]">
                 <div className="absolute lg:left-32 left-28 bg-white flex gap-2 w-[185px] h-[32px] justify-center items-center border border-[#FFD962] bg-[#FFD962]/5 text-sm rounded-lg">
                   <div>
                     <Image src={Dotted} alt="icon" />
@@ -120,7 +120,7 @@ export default function ScholorShip() {
                         </span>{" "}
                         l to our fellowship program because
                       </p>
-                      <div className="w-full flex">
+                      <div className="w-full flex ">
                         <div className="w-full lg:w-1/2">
                           <div className="flex gap-1">
                             <span>1.</span>
@@ -156,7 +156,6 @@ export default function ScholorShip() {
                       </div>
                     </div>
                   </div>
-                  
 
                   <div className="w-full mt-3 lg:w-[266px] h-[56px] bg-[#FFD03F] p-5 flex justify-center items-center rounded-xl">
                     <p className="text-[18px] font-bold text-[#141317]">

@@ -1,5 +1,5 @@
 import React from "react";
-import Flowchart from "./Flowchart";
+import FlowChart from "./Flowchart";
 
 export default function AdmissionProcess() {
   return (
@@ -18,10 +18,10 @@ export default function AdmissionProcess() {
             </p>
             
           </div>
-          <p className="text-center font-bold text-2xl">Panding the UI</p>
+          {/* <p className="text-center font-bold text-2xl">Panding the UI</p> */}
         </div>
       </div>
-      {/* <Flowchart /> */}
+      <FlowChart />
     </div>
   );
 }
