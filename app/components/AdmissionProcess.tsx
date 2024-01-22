@@ -1,5 +1,6 @@
 import React from "react";
 import FlowChart from "./Flowchart";
+import Professional from "./Professional";
 
 export default function AdmissionProcess() {
   return (
@@ -21,7 +22,8 @@ export default function AdmissionProcess() {
           {/* <p className="text-center font-bold text-2xl">Panding the UI</p> */}
         </div>
       </div>
-      <FlowChart />
+      {/* <FlowChart /> */}
+      <Professional />
     </div>
   );
 }

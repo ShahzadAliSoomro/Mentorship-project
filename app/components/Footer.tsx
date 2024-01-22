@@ -73,7 +73,7 @@ export default function Footer() {
                       className="px-4 py-2 border rounded-md bg-transparent w-full lg:w-[488px] h-auto lg:h-[64px] focus:outline-none"
                       placeholder="Enter your email address"
                     />
-                    <button className="absolute lg:right-[66px] md:right-[66px] sm:right-[66px] right-[6px] top-[7px] w-full px-6 py-2.5 text-[20px] font-medium tracking-wider text-white transition-colors duration-300 transform md:w-auto md:mx-4 focus:outline-none bg-[#764DEF] rounded-md hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80">
+                    <button className="absolute lg:right-[66px] md:right-[66px] sm:right-[66px] right-[6px] top-[7px] w-full px-6 py-2.5 text-[20px] font-medium tracking-wider text-white transition-colors duration-300 transform md:w-auto md:mx-4 focus:outline-none bg-[#764DEF] rounded-md hover:bg-[#764DEF]/80 focus:ring focus:ring-gray-300 focus:ring-opacity-80">
                       Subscribe
                     </button>
                   </div>
@@ -100,31 +100,31 @@ export default function Footer() {
                 <div className="flex flex-col items-start mt-5 space-y-4 text-[16px] text-[#E2E7E9]">
                   <Link
                     href="#"
-                    className=" transition-colors duration-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+                    className=" transition-colors duration-300 dark:hover:text-blue-400 hover:underline hover:text-[#764DEF]"
                   >
                     UI/UX Design
                   </Link>
                   <Link
                     href="#"
-                    className=" transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+                    className=" transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-[#764DEF]"
                   >
                     Digital Art
                   </Link>
                   <Link
                     href="#"
-                    className=" transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+                    className=" transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-[#764DEF]"
                   >
                     Branding
                   </Link>
                   <Link
                     href="#"
-                    className=" transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+                    className=" transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-[#764DEF]"
                   >
                     Advertising
                   </Link>
                   <Link
                     href="#"
-                    className=" transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+                    className=" transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-[#764DEF]"
                   >
                     Creative Things
                   </Link>
@@ -136,25 +136,25 @@ export default function Footer() {
                 <div className="flex flex-col items-start mt-5 space-y-4 text-[16px] text-[#E2E7E9]">
                   <Link
                     href="#"
-                    className=" transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+                    className=" transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-[#764DEF]"
                   >
                     Proejct Portfolio
                   </Link>
                   <Link
                     href="#"
-                    className=" transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+                    className=" transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-[#764DEF]"
                   >
                     Ongoing Event
                   </Link>
                   <Link
                     href="#"
-                    className=" transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+                    className=" transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-[#764DEF]"
                   >
                     Blogs
                   </Link>
                   <Link
                     href="#"
-                    className=" transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+                    className=" transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-[#764DEF]"
                   >
                     Newsletter
                   </Link>
@@ -169,7 +169,7 @@ export default function Footer() {
                     <Image src={Email} alt="" width={24} height={24} />
                     <Link
                       href="#"
-                      className=" transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+                      className=" transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-[#764DEF]"
                     >
                       info@codersclass.com
                     </Link>
@@ -178,7 +178,7 @@ export default function Footer() {
                     <Image src={Phone} alt="" width={24} height={24} />
                     <Link
                       href="#"
-                      className=" transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+                      className=" transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-[#764DEF]"
                     >
                       (021) 123 988 988
                     </Link>
@@ -187,7 +187,7 @@ export default function Footer() {
                     <Image src={Location} alt="" width={24} height={24} />
                     <Link
                       href="#"
-                      className=" transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+                      className=" transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-[#764DEF]"
                     >
                       3891 Ranchview 765-8764 Dr. Richardson California 62639
                     </Link>
@@ -222,7 +222,7 @@ export default function Footer() {
               <div className="flex -mx-2">
                 <Link
                   href="#"
-                  className="mx-2  transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+                  className="mx-2  transition-colors duration-300 dark:text-gray-300 hover:text-[#764DEF] dark:hover:text-blue-400"
                   aria-label="Reddit"
                 >
                   <svg
@@ -237,7 +237,7 @@ export default function Footer() {
 
                 <Link
                   href="#"
-                  className="mx-2  transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+                  className="mx-2  transition-colors duration-300 dark:text-gray-300 hover:text-[#764DEF] dark:hover:text-blue-400"
                   aria-label="Facebook"
                 >
                   <svg
@@ -252,7 +252,7 @@ export default function Footer() {
 
                 <Link
                   href="#"
-                  className="mx-2  transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+                  className="mx-2  transition-colors duration-300 dark:text-gray-300 hover:text-[#764DEF] dark:hover:text-blue-400"
                   aria-label="Github"
                 >
                   <svg

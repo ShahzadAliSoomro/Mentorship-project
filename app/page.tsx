@@ -22,7 +22,10 @@ export default function Home() {
       <IntroCoders />
       <SingleCard />
       <AdmissionProcess />
-      <LogosSlider />
+      <div className='pt-[500px]'>
+         <LogosSlider />
+      </div>
+     
       <OurPeculiarCurriculum />
       <VerefyCertificate />
       <ScholorShip />
