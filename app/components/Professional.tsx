@@ -184,7 +184,8 @@ export default function Professional() {
                                         <div className="flex flex-col gap-2 justify-center items-center">
                                           <div className="">
                                             <p className="text-[18px] font-medium text-[#764DEF]">
-                                            Get a relevant job or 100% tuition refund
+                                              Get a relevant job or 100% tuition
+                                              refund
                                             </p>
                                           </div>
                                           <div className="flex gap-2 w-[195px] h-[32px] justify-center items-center border border-[#FFD962] bg-[#FFD962]/5 p-2 rounded-lg">
@@ -197,7 +198,7 @@ export default function Professional() {
                                               />
                                             </span>
                                             <p className="text-[15px]">
-                                            No Terms & Conditons
+                                              No Terms & Conditons
                                             </p>
                                           </div>
                                         </div>
