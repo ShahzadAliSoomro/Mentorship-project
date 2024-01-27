@@ -1,5 +1,4 @@
 import React from "react";
-import FlowChart from "./Flowchart";
 import Professional from "./Professional";
 
 export default function AdmissionProcess() {
@@ -18,7 +17,6 @@ export default function AdmissionProcess() {
               you towards becoming a top-tier tech professional .
             </p>
           </div>
-          {/* <p className="text-center font-bold text-2xl">Panding the UI</p> */}
         </div>
       </div>
       {/* <FlowChart /> */}
